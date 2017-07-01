@@ -1,0 +1,12 @@
+
+.customBar:hover{
+    background: lightgray;
+}
+
+#topMenu{
+   text-align: center;
+}
+
+#firstControllerLevel{
+    padding-left: 30px;
+}
