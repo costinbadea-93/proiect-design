@@ -182,7 +182,7 @@ Misiunea Romsa este de a oferi cu profesionalism si integritate produse de inalt
 	var openedThirdLevel = false;
 	var openedFourthLevel = false;
 	var openedThirdLevel2 = false;
-  var openedSecondLevel2 = false;
+    var openedSecondLevel2 = false;
 	var openedFirstLevel3 = false;
 	var openedSecondLevel4 = false;
 	var openedSecondLevel5 = false;
@@ -204,9 +204,11 @@ Misiunea Romsa este de a oferi cu profesionalism si integritate produse de inalt
 		if(openedSecondLevel == false){
 				//$("#firstControllerLevel").css('padding-left', '10px');​
 				$("#secondControllerLevel").show();
+				$("#mainCol").load('tac.html');
 				openedSecondLevel = true;
 		}else{
 				$("#secondControllerLevel").hide();
+				$("#mainCol").load('tac.html');
 				openedSecondLevel = false;
 		}
 	});
@@ -295,6 +297,14 @@ Misiunea Romsa este de a oferi cu profesionalism si integritate produse de inalt
 		//		return false;
 		}
 	});
+
+	$("#showFirstControllerLevel").click(function(){
+
+		$("#mainCol").load('login.html')
+
+	});
+
+
 
 	})
 
